@@ -1,8 +1,8 @@
 
 // CREAT YOUR RESUME DATA IN JASON FORMAT :
 
-let myResume={
-    "basics": {
+   let myResume=[
+    "basics" {
       "name": "SURYA.R",
       "email": "suryasudhan2000@gmail.com",
       "phone": 9844733003,
@@ -22,7 +22,7 @@ let myResume={
       ]
     },
    
-    "education": [
+    "education" [
       {
         "institution": "hindusthan College Of Engineering and technology",
         "department": "Mechatronics",
@@ -32,7 +32,7 @@ let myResume={
         "gpa": 8,
       }
     ],
-    "skills": [
+    "skills" [
       {
         "name": "HTML,javascript",
         "level": "beginer",
@@ -40,17 +40,17 @@ let myResume={
         
       }
     ],
-    "languages": [
+    "languages" [
       {
         "language": "Tamil,Enlish",
       }
     ],
-    "interests": [
+    "interests" [
       {
         "name": "WEB DEVELOPER,",
       }
     ]
-  }
+  ]
   console.log(myResume);
 
 
@@ -79,3 +79,4 @@ for(var i = 0; i < json.length; i++) {
 
 }
   console.log(text);
+
